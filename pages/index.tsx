@@ -8,10 +8,10 @@ const Home: NextPage = () => {
         <title>Tiankai Xie</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="w-5/12 text-left">
-        <div className="grid grid-cols-5">
+      <main className="text-left sm:w-11/12 md:w-10/12 lg:w-5/12">
+        <div className="grid sm:grid-cols-4 lg:grid-cols-5">
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h1 className="text-4xl font-light">Tiankai Xie</h1>
             <h2 className="py-2 text-lg font-light text-gray-500">
               Graduate Research Associate
@@ -135,15 +135,15 @@ const Home: NextPage = () => {
 
           {/* Education Section */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h1 className="pt-8 pb-4 text-3xl font-light">Education</h1>
           </div>
 
           {/* Ph.D. */}
-          <div className="pr-4 text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">
               Ph.D. in Computer Science
             </h3>
@@ -167,10 +167,10 @@ const Home: NextPage = () => {
           </div>
 
           {/* M.S. */}
-          <div className="pr-4 text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">Aug. 2015 - May 2017</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">
               M.S. in Computer Science
             </h3>
@@ -183,10 +183,10 @@ const Home: NextPage = () => {
           </div>
 
           {/* B.S. */}
-          <div className="pr-4  text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">Sep. 2011 - July 2015</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">
               B.S. in Computer Science
             </h3>
@@ -197,15 +197,15 @@ const Home: NextPage = () => {
 
           {/* Experience Section */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h1 className="pt-8 pb-4 text-3xl font-light">Experience</h1>
           </div>
 
           {/* GSA */}
-          <div className="pr-4  text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">
               Graduate Research Associate
             </h3>
@@ -239,10 +239,10 @@ const Home: NextPage = () => {
           </div>
 
           {/* Intern Epsilon */}
-          <div className="pr-4  text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">May 2021 - Aug. 2021</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">
               Data Science Intern
             </h3>
@@ -276,10 +276,10 @@ const Home: NextPage = () => {
           </div>
 
           {/* Intern Epsilon */}
-          <div className="pr-4  text-right">
+          <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
             <p className="py-4 text-xs font-light">July 2017 - May 2018</p>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base font-bold">Co-founder</h3>
             <h4 className="text-base font-light">
               RobotGyms, Inc., San Mateo, CA{' '}
@@ -311,13 +311,13 @@ const Home: NextPage = () => {
 
           {/* Publication Section */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h1 className="pt-8 pb-4 text-3xl font-light">Publications</h1>
           </div>
 
           {/* FairrankVis */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base">
               FairRankVis: A Visual Analytics Framework for Exploring
               Algorithmic Fairness in Graph Mining Models
@@ -391,7 +391,7 @@ const Home: NextPage = () => {
 
           {/* Auditing */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base">
               Auditing the Sensitivity of Graph-based Ranking with Visual
               Analytics
@@ -465,7 +465,7 @@ const Home: NextPage = () => {
 
           {/* AML */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h3 className="pt-3 pb-1 text-base">
               Explaining Vulnerabilities to Adversarial Machine Learning through
               Visual Analytics
@@ -538,12 +538,12 @@ const Home: NextPage = () => {
 
           {/* Reference Section */}
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <h1 className="pt-8 pb-4 text-3xl font-light">Reference</h1>
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Ross Maciejewski,{' '}
               <span className="font-light">Professor</span>
@@ -571,7 +571,7 @@ const Home: NextPage = () => {
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Huan Liu, <span className="font-light">Professor</span>
             </p>
@@ -598,7 +598,7 @@ const Home: NextPage = () => {
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Hanghang Tong,{' '}
               <span className="font-light">Associate Professor</span>
@@ -626,7 +626,7 @@ const Home: NextPage = () => {
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Chris Bryan,{' '}
               <span className="font-light">Assistant Professor</span>
@@ -654,7 +654,7 @@ const Home: NextPage = () => {
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Yuxin Ma,{' '}
               <span className="font-light">Assistant Professor</span>
@@ -682,7 +682,7 @@ const Home: NextPage = () => {
           </div>
 
           <div></div>
-          <div className="col-span-4">
+          <div className="col-span-4 px-4">
             <p>
               Dr. Jundong Li,{' '}
               <span className="font-light">Assistant Professor</span>
