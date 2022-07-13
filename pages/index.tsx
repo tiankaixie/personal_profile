@@ -7,6 +7,16 @@ const Home: NextPage = () => {
       <Head>
         <title>Tiankai Xie</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <main className="text-left sm:w-11/12 md:w-10/12 lg:w-5/12">
         <div className="grid sm:grid-cols-4 lg:grid-cols-5">
@@ -144,9 +154,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">
-              Ph.D. in Computer Science
-            </h3>
+            <h3 className="pt-3 pb-1 text-base">Ph.D. in Computer Science</h3>
             <h4 className="text-base font-light">
               Arizona State University, Tempe, AZ{' '}
             </h4>
@@ -171,9 +179,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">Aug. 2015 - May 2017</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">
-              M.S. in Computer Science
-            </h3>
+            <h3 className="pt-3 pb-1 text-base ">M.S. in Computer Science</h3>
             <h4 className="text-base font-light">
               Steven Institute of Technology, Hoboken, NJ{' '}
             </h4>
@@ -187,9 +193,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">Sep. 2011 - July 2015</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">
-              B.S. in Computer Science
-            </h3>
+            <h3 className="pt-3 pb-1 text-base ">B.S. in Computer Science</h3>
             <h4 className="text-base font-light">
               Beijing Forestry University, Beijing, China{' '}
             </h4>
@@ -206,7 +210,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">Aug. 2018 - Present</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">
+            <h3 className="pt-3 pb-1 text-base ">
               Graduate Research Associate
             </h3>
             <h4 className="text-base font-light">
@@ -243,9 +247,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">May 2021 - Aug. 2021</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">
-              Data Science Intern
-            </h3>
+            <h3 className="pt-3 pb-1 text-base ">Data Science Intern</h3>
             <h4 className="text-base font-light">
               Epsilon Data Management, LLC., Chicago, IL{' '}
             </h4>
@@ -280,7 +282,7 @@ const Home: NextPage = () => {
             <p className="py-4 text-xs font-light">July 2017 - May 2018</p>
           </div>
           <div className="col-span-4 px-4">
-            <h3 className="pt-3 pb-1 text-base font-bold">Co-founder</h3>
+            <h3 className="pt-3 pb-1 text-base ">Co-founder</h3>
             <h4 className="text-base font-light">
               RobotGyms, Inc., San Mateo, CA{' '}
             </h4>
